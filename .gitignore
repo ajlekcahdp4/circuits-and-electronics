@@ -2,5 +2,4 @@
 **/*.log
 **/*.fls
 **/*.gz
-**/*.fbd_latexmk
-**/*.pdf
+**/*.fdb_latexmk
