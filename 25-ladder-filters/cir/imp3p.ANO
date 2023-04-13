@@ -1,0 +1,223 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                           AC Analysis of imp3p                           ***
+********************************************************************************
+Limits
+======
+Frequency Range          Linear 1,0
+Number of Points         1000
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+Model parameters for devices of type Sine Source
+================================================
+Instance:               E   
+Using model:         1MHZ   
+A                  1.000 (*)
+DC                 0.000 (*)
+F                1.000MEG(*)
+PH                 0.000 (*)
+RP                 0.000 (*)
+RS                 1.000m(*)
+TAU                0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Pulse
+==========================================
+Instance:              VP   
+Using model:        PULSE   
+P1                 0.000    
+P2                 1.000n   
+P3                 1.000m   
+P4                 1.001m   
+P5                10.000m   
+VONE               1.000    
+VZERO              0.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+L             0.000   2             0.000   3             0.000  
+4             0.000   H             0.000   6             0.000  
+7             0.000   8             0.000   9             0.000  
+10            0.000   11            0.000   B             0.000  
+13            0.000   14            0.000   15            0.000  
+R             0.000   17            0.000   18            0.000  
+19            0.000   20            0.000   21            0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current  Inductor     Current  Inductor     Current 
+L0L           0.000   L1S           0.000   L1B           0.000  
+L0B           0.000   L1R           0.000   L0R           0.000  
+L2L           0.000   L2B           0.000   L2R           0.000  
+L0            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RLL             RSL             RLH             RSH
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PD                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ir                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+tc1                    0.000           0.000           0.000           0.000 
+tc2                    0.000           0.000           0.000           0.000 
+
+
+Instance:                E.RS             RSB             RLP             RSR
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PD                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ir                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+tc1                    0.000           0.000           0.000           0.000 
+tc2                    0.000           0.000           0.000           0.000 
+
+
+Instance:                 RLR              F0               Q              R0
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PD                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ir                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+tc1                    0.000           0.000           0.000           0.000 
+tc2                    0.000           0.000           0.000           0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                 L0L             L1S             L1B             L0B
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Il                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000           0.000           0.000 
+
+
+Instance:                 L1R             L0R             L2L             L2B
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Il                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000           0.000           0.000 
+
+
+Instance:                 L2R              L0
+V                      0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000 
+
+DC Pin Currents:
+Il                     0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1L             C0H             C0P             C1B
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ic                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000           0.000           0.000 
+
+
+Instance:                 C1R             C0R             C2S             C2B
+V                      0.000           0.000           0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000           0.000           0.000 
+
+DC Pin Currents:
+Ic                     0.000           0.000           0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000           0.000           0.000 
+
+
+Instance:                 C2R              C0
+V                      0.000           0.000 
+Power DC Terms:
+PS                     0.000           0.000 
+
+DC Pin Currents:
+Ic                     0.000           0.000 
+
+Device Variables:
+ic                     0.000           0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                   E
+Using model:             1MHZ
+V                      0.000 
+Power DC Terms:
+PG                     0.000 
+
+DC Pin Currents:
+ISource                0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                  VP
+Using model:            PULSE
+V                      0.000 
+Power DC Terms:
+PG                     0.000 
+
+DC Pin Currents:
+ISource                0.000 
+
+
