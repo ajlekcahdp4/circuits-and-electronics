@@ -3,3 +3,6 @@
 **/*.fls
 **/*.gz
 **/*.fdb_latexmk
+**/*.ANO
+**/*.inx*
+**/*.TNO
